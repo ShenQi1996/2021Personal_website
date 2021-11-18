@@ -1,5 +1,4 @@
 import React from 'react'
-import SamLogo  from "../../assets/logo.svg"
 import './footer.css';
 const Footer = () => {
     return (
@@ -9,37 +8,32 @@ const Footer = () => {
         </div>
     
         <div className="sam_footer-btn">
-        <p><a href="#home">Go back up</a></p>
+        <p><a href="https://calendly.com/qisam/meetingwithsam?month=2021-11" target="_blank" rel="noreferrer">Let's Meet</a></p>
         </div>
     
         <div className="sam_footer-links">
           <div className="sam_footer-links_logo">
-            <img src={SamLogo} alt="sam_logo" />
-            <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+            {/* <img src={SamLogo} alt="sam_logo" /> */}
+            <h1>Sam Qi</h1>
           </div>
           <div className="sam_footer-links_div">
             <h4>Links</h4>
-            <p>Overons</p>
-            <p>Social Media</p>
-            <p>Counters</p>
-            <p>Contact</p>
+            <p><a href="https://www.linkedin.com/in/shenqi1993/" target="_blank" rel="noreferrer">Linkedin</a></p>
+            <p><a href="https://github.com/ShenQi1996" target="_blank" rel="noreferrer">Github</a></p>
           </div>
-          <div className="sam_footer-links_div">
+          {/* <div className="sam_footer-links_div">
             <h4>Company</h4>
-            <p>Terms & Conditions </p>
-            <p>Privacy Policy</p>
-            <p>Contact</p>
-          </div>
+          </div> */}
           <div className="sam_footer-links_div">
             <h4>Get in touch</h4>
-            <p>Crechterwoord K12 182 DK Alknjkcb</p>
-            <p>085-132567</p>
-            <p>info@payme.net</p>
+            <p>2024 60th Brooklyn, New York, 11204</p>
+            <p>+1347-757-7730</p>
+            <p>qisam1989@gmail.com</p>
           </div>
         </div>
     
         <div className="sam_footer-copyright">
-          <p>@2021 GPT-3. All rights reserved.</p>
+          <p>@2021 All rights reserved.</p>
         </div>
       </div>
     )

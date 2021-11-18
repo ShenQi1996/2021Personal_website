@@ -1,13 +1,14 @@
 import React from 'react'
 import './whatSam.css';
 import Feature from '../../components/feature/Feature';
+import pro from "../../assets/pro1.jpg"
 const WhatSam = () => {
 
 
     return (
         <div className="sam_whatSam section__margin" id="sam">
         <div className="sam_whatSam-feature">
-          <Feature title="Who is Sam" text="I am a person that loves developing, designing, and delivering software and websites used by all kinds of businesses. A proven leader with a number of years of experience who is driven to make the world a better place one solution at a time and create a personal brand that people remember me, build things that represent me, and appreciate people that helped me." />
+          <Feature title="Who is Sam ?" text="I am a person that loves developing, designing, and delivering software and websites used by all kinds of businesses. A proven leader with a number of years of experience who is driven to make the world a better place one solution at a time and create a personal brand that people remember me, build things that represent me, and appreciate people that helped me." img={pro} />
         </div>
         <div className="sam_whatSam-heading">
           <h1 className="gradient__text">The possibilities are beyond your imagination</h1>

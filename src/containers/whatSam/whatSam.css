@@ -53,12 +53,12 @@
 }
 
 /* Customizing feature component as per needs */
-.sam_whatSam-feature .gpt3__features-container__feature {
+.sam_whatSam-feature .sam_features-container__feature {
   margin: 0;
 }
 
 /* Customizing feature component as per needs */
-.sam_whatSam-feature .gpt3__features-container_feature-text {
+.sam_whatSam-feature .sam_features-container_feature-text {
   max-width: 700px;
 }
 

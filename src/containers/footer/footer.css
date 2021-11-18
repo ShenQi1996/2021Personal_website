@@ -63,9 +63,10 @@
   flex-direction: column;
 }
 
-.sam_footer-links_logo img {
+.sam_footer-links_logo h1 {
   width: 118px;
   height: 30px;
+  color: #fff;
 
   margin-bottom: 1rem;
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,7 +9,7 @@ const Navbar = () => {
     <div className="sam_navbar">
       <div className="sam_navbar-links">
         <div className="sam_navbar-links_logo">
-          <img src={logo} />
+          <h2>SamQi</h2>
         </div>
         <div className="sam_navbar-links_container">
           <p><a href="#home">Home</a></p>

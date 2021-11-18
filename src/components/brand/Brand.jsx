@@ -8,16 +8,16 @@ const Brand = () => {
     return (
         <div className="sam_brand section__padding">
         <div>
-          <img src={google} />
+          <img src={google} alt="" />
         </div>
         <div>
-          <img src={slack} />
+          <img src={slack} alt=""/>
         </div>
         <div>
-          <img src={dropbox} />
+          <img src={dropbox} alt=""/>
         </div>
         <div>
-          <img src={shopify} />
+          <img src={shopify} alt="" />
         </div>
       </div>
     );
