@@ -50,6 +50,14 @@
 
 .sam_whatSam-feature {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.sam_whatSam-feature p {
+  padding-top: 10%;
+  font-weight: bolder;
+  font-size: medium;
+  text-align: center;
 }
 
 /* Customizing feature component as per needs */

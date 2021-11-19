@@ -27,10 +27,10 @@ const Navbar = () => {
         <div className="sam_navbar-menu_container scale-up-center">
           <div className="sam_navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">Who is Sam?</a></p>
-            <p><a href="#possibility">Experiences</a></p>
-            <p><a href="#features">Skills</a></p>
-            <p><a href="#blog">Projects</a></p>
+            <p><a href="#sam">Who is Sam?</a></p>
+            <p><a href="#Experiences">Experiences</a></p>
+            <p><a href="#Skills">Skills</a></p>
+            <p><a href="#Projects">Projects</a></p>
           </div>
         </div>
         )}
